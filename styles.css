@@ -455,3 +455,14 @@ a:focus-visible, button:focus-visible{
 .brand-logo img{
   filter: brightness(1.35) saturate(0.85);
 }
+
+
+/* =============================
+   FIX: تثبيت عناوين النغمات
+   ============================= */
+.tone-name{font-weight:700!important;font-size:16px!important;line-height:1.4!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;}
+
+/* Safe performance tweaks */
+.tone-card{contain:layout paint style}
+.tone-name{min-height:1.4em}
+.tone-thumb-wrap img{width:100%;height:100%;object-fit:cover;display:block}
